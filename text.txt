@@ -1,0 +1,13 @@
+amboghj a = 1;
+amboghj b = 5;
+racional x = 3.1;
+racional y = 4.6;
+tramabanakan q = true;
+tramabanakan p = false;
+ete (a < b ) {
+    tpel << a << verj;
+}
+minchder (a < b) {
+    tpel << tramabanakan(a < b) << verj;
+    a++;
+}
