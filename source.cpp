@@ -4,8 +4,8 @@
 #include <vector>
 #include <map>
 
-bool state;
-bool input;
+bool state = false;
+bool input = false;
 
 struct variables {
     std::string name;
@@ -15,7 +15,7 @@ struct variables {
 
 std::vector<variables>variable;
 std::vector<std::string>cond;
-std::vector<std::vector<std::string>>body;
+std::vector<std::vector<std::string> >body;
 std::string lexer;
 
 
@@ -429,7 +429,7 @@ void conditionScope(std::vector<std::string>& tokens) {
     if (state == true) {
         int i = 0;
         if (tokens[i] == "}") input = false;
-        if (input = true) {
+        if (input == true) {
             translate(tokens);
             return;
         }
