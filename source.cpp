@@ -1,13 +1,12 @@
 #include <iostream>
-#include <string>
-#include <fstream>
-#include <vector>
 #include "functions.h"
+
 
 int main()
 {
     std::ifstream file;
     file.open("text.txt");
+
     if (file.is_open()) {
         lexing(file);
     }
