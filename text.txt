@@ -4,6 +4,11 @@ racional x = 3.1;
 racional y = 4.6;
 tramabanakan q = true;
 tramabanakan p = false;
+togh str1 = "inch";
+togh str2 = "vortegh";
+ete (str1 == str2) {
+    tpel << "true";
+}
 ete (a < b ) {
     tpel << a << verj;
 }
