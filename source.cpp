@@ -4,7 +4,6 @@
 #include <vector>
 #include "functions.h"
 
-
 int main()
 {
     std::ifstream file;
